@@ -129,6 +129,10 @@ Survived millions of adversarial exchanges under the harshest conditions:
 ## Quick Deployment
 
 > **This project's core is absolutely closed-source. Pre-built Docker images with full obfuscation are distributed via GitHub Container Registry.**
+> 
+> **🏆 Architecture Support Update (v5.6):**
+> All publicly distributed images now natively support cross-platform **`amd64` (Standard x86) and `arm64` (Apple Silicon & ARM Hosts)** dual-architecture deployments.  
+> With the unified v5.6 update, whether you are running on Windows, Linux, or Macs equipped with **M1/M2/M3 Apple Silicon**, Docker will automatically pull and execute an un-emulated, zero-performance-loss native container (bypassing Rosetta).
 
 ### Docker Deployment
 
