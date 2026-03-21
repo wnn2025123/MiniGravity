@@ -75,7 +75,7 @@
 MiniGravity 当前支持双重降维打击模式，你可以根据不同的风控烈度无缝部署切换：
 
 <p align="center">
-  <img src="assets/absolute_emulation.jpg" alt="Absolute Emulation Matrix" width="800" />
+  <img src="assets/minigravity_guard2.jpg" alt="Absolute Emulation Matrix" width="800" />
 </p>
 
 > ### 👑【核心主推】🔥 终极形态：原生通道推理 (Native Channel Inference / v6.0-ls+)

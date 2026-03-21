@@ -72,7 +72,7 @@ Traditional Go proxies expose cheap TLS/HTTP2 fingerprints during TLS handshakes
 MiniGravity now offers two invincible engines for different defensive postures:
 
 <p align="center">
-  <img src="assets/absolute_emulation.jpg" alt="Absolute Emulation Matrix" width="800" />
+  <img src="assets/minigravity_guard2.jpg" alt="Absolute Emulation Matrix" width="800" />
 </p>
 
 > ### 👑 [PRIMARY FOCUS] 🔥 Ultimate Form: Native Channel Inference (v6.0-ls+)
