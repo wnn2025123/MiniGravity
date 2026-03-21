@@ -1,6 +1,6 @@
 services:
   hive-nexus:
-    image: ghcr.io/wnn2025123/minigravity:v5.6
+    image: ghcr.io/wnn2025123/minigravity:v5.9
     ports:
       - "8080:8080"  # Proxy API endpoint
       - "9090:9000"  # Queen Load Balancer endpoint
@@ -12,7 +12,7 @@ services:
       - MINIGRAVITY_QUEUE_CONCURRENCY=2
       - MINIGRAVITY_QUEUE_INTERVAL_MS=500
       - MINIGRAVITY_WORKERS=http://127.0.0.1:8080
-      - MINIGRAVITY_LOG_LEVEL=info
+      - MINIGRAVITY_LOG_LEVEL=warn
       - http_proxy=
       - https_proxy=
       - HTTP_PROXY=
