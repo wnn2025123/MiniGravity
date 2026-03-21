@@ -66,9 +66,12 @@ At its core lies a **Markov Chain + Poisson Distribution** driven bio-behavioral
 - **Cross-tenant isolation**: Hash-based `X-MG-Client-Hash` signals physically isolate Cursor and OpenCode traffic streams. Client A's failure never triggers Client B's circuit-breaker.
 - **Deep Semantic Desensitization**: Millisecond-level XML sanitization pool strips third-party tags like `<prunable-tools>` and product identifiers.
 
-### 3. Dual Parasitic Auth & BoringSSL Preservation (Parasitic OAuth Mode)
-Traditional Go proxies expose cheap TLS JA3/JA4 fingerprints when refreshing Google tokens — a fatal giveaway.
-MiniGravity pioneers **"Parasitic Mode"**: the gateway silently harvests `jetski-standalone-oauth-token` from the official C++ Language Server's native BoringSSL engine. Zero abnormal outbound connections.
+### 3. Dual-Engine Architecture: Native RPC & Parasitic Mode
+Traditional Go proxies expose cheap TLS/HTTP2 fingerprints during TLS handshakes — a fatal giveaway.
+MiniGravity now offers two invincible engines for different defensive postures:
+
+- **🔥 Ultimate: Native Channel Inference (v6.0-ls+)**: 100% abandon Go-based spoofing. The gateway delegates all LLM inference tasks via high-privilege local RPC directly to the official native Language Server. Traffic exits using the official, genuine BoringSSL cryptographic stack. To Google's audit algorithms, your anomalous trajectory drops to zero. This mode also unlocks restricted third-party models like Claude Sonnet/Opus and GPT-4o.
+- **🕷️ Fallback: uTLS Parasitic Mode (v5.9)**: When extreme environments limit native components, the gateway shifts to classic parasitic degradation. It severs its own external OAuth connections and silently parasitizes the Language Server's memory to harvest the official `jetski-standalone-oauth-token`, utilizing heavily obfuscated uTLS routing to process inference requests securely.
 
 ### 4. Shadow Cascade Telemetry Inducement
 Single HTTP requests are easily flagged as offline scripts. Official monitoring collects 22+ deep internal telemetry events like `RecordCortexTrajectory`.

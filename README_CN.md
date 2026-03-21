@@ -69,9 +69,12 @@
 *   **跨租户防连坐隔离**：利用哈希化的身份穿透信令(`X-MG-Client-Hash`)，将来自 Cursor 和 OpenCode 的流量物理隔离。客户端 A 炸了不会牵连熔断客户端 B，全局防御永不倒塌。
 *   **跨纬度内容脱敏清洗 (Deep Semantic Desensitization)**：我们构筑了毫秒级的 XML 文本脱敏池。诸多外部代理框架悄悄塞在 Prompt 里的 `<prunable-tools>` 等机器私有标签、独有产品名，均会在本层遭到彻底洗消过滤。在 Google 眼里，绝看不到除官方 IDE 以外的一丁点污垢残渣！
 
-### 3. 双重寄生鉴权模式与 BoringSSL 原生保全 (Parasitic OAuth Mode)
-传统的 Go 代理在请求 Google 刷新 Token 时，会暴露标准库极为廉价的 TLS JA3/JA4 指纹，这是致命的风控送分题。
-MiniGravity 首创**“寄生虫模式 (Parasitic Mode)”**。网关底层代码彻底斩断了主动与 `oauth2.googleapis.com` 的通信链路，转而挂载并寄生在官方 C++ Language Server 的运行内存与原生缓存树上。它犹如幽灵般静默窃取由官方纯正 BoringSSL 引擎生成的 `jetski-standalone-oauth-token`。全程零异常外发连接，实现最极致的 TLS 握手特征免疫。
+### 3. 双引擎架构：原生通道推理与 uTLS 寄生模式 (Dual-Engine Architecture)
+传统的 Go 代理在请求流转时，会暴露标准库极为廉价的 TLS JA3/JA4/HTTP2 指纹，这是致命的风控送分题。
+MiniGravity 当前支持双重降维打击模式，你可以根据不同的风控烈度无缝部署切换：
+
+- **🔥 终极：原生通道推理 (Native RPC Mode / v6.0-ls+)**：百分之百抛弃 Go 语言伪装发包。网关将所有大模型推理任务，转化为本地高权限 RPC 协议，直接喂给官方原生的 Language Server。让自带最纯正 BoringSSL 加密栈的官方执行器全权代替我们发起网络通信！从 Google 审计端看，你的第三方代理流量特征暴跌为零。此模式下同时降维解锁 Claude Sonnet/Opus、GPT-4o 等封闭模型通道。
+- **🕷️ 兜底：uTLS 寄生模式 (Parasitic Mode / v5.9)**：主打极致隐蔽。LS 仅充当宿主打杂，网关彻底斩断与 `oauth2.googleapis.com` 的危险链路，犹如寄生虫般挂接在内存中，窃取官方原生刷新的 Auth Token，随后通过重度核改的 uTLS 链路将主模型推理请求神不知鬼不觉地送达服务器，作为应对极端环境的坚实后盾。
 
 ### 4. 影子 Cascade 欺骗与高维轨迹补全 (Shadow Cascade Telemetry Inducement)
 

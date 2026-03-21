@@ -1,0 +1,61 @@
+services:
+  # # ====== v6.0-ls 原生模式 ======
+  # # 原生通道推理, 支持多模型
+  # hive-nexus:
+  #   image: 联系作者获取,少量内测
+  #   ports:
+  #     - "8080:8080"  # Proxy API endpoint
+  #     - "9090:9000"  # Queen Load Balancer endpoint
+  #     - "9091:9090"  # Dashboard UI
+  #   volumes:
+  #     - ./accounts.json:/app/accounts.json:ro
+  #     - /var/run/docker.sock:/var/run/docker.sock
+  #   environment:
+  #     - MINIGRAVITY_QUEUE_CONCURRENCY=2
+  #     - MINIGRAVITY_QUEUE_INTERVAL_MS=500
+  #     - MINIGRAVITY_WORKERS=http://127.0.0.1:8080
+  #     - MINIGRAVITY_LOG_LEVEL=info
+  #     - http_proxy=
+  #     - https_proxy=
+  #     - HTTP_PROXY=
+  #     - HTTPS_PROXY=
+  #   extra_hosts:
+  #     - "host.docker.internal:host-gateway"
+  #   restart: unless-stopped
+  #   security_opt:
+  #     - no-new-privileges:true
+  #   deploy:
+  #     resources:
+  #       limits:
+  #         memory: 512M
+
+  # ====== uTLS 寄生模式 (v5.9) ======
+  # LS 负责打杂 (刷 Token、发心跳遥测), 推理走 uTLS
+  # 如需切换回寄生模式，注释上方 hive-nexus，取消下方注释
+  hive-nexus:
+    image: ghcr.io/wnn2025123/minigravity:v5.9
+    ports:
+      - "8080:8080"
+      - "9090:9000"
+      - "9091:9090"
+    volumes:
+      - ./accounts.json:/app/accounts.json:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - MINIGRAVITY_QUEUE_CONCURRENCY=2
+      - MINIGRAVITY_QUEUE_INTERVAL_MS=500
+      - MINIGRAVITY_WORKERS=http://127.0.0.1:8080
+      - MINIGRAVITY_LOG_LEVEL=warn
+      - http_proxy=
+      - https_proxy=
+      - HTTP_PROXY=
+      - HTTPS_PROXY=
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    deploy:
+      resources:
+        limits:
+          memory: 512M
