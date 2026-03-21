@@ -75,7 +75,7 @@ MiniGravity now offers two invincible engines for different defensive postures:
   <img src="assets/native_channel.jpg" alt="Native Channel Mode (Sorcerer)" width="800" />
 </p>
 
-> ### 👑 [PRIMARY FOCUS] 🔥 Ultimate Form: Native Channel Inference (v6.0-ls+)
+> ### 👑 [PRIMARY FOCUS] 🔥 Ultimate Form: Native Channel Inference (v6.0-pro+)
 > **🚨 Highlight: Absolute Zero-Fingerprint Communication & Full Multi-Model Unlock 🚨**
 > 
 > **Flawlessly integrates all LLM inference tasks into the execution flow of official native components, routing traffic exclusively through the official, genuine cryptographic stack!** 
