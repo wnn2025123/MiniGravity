@@ -56,32 +56,44 @@ No more blind guessing or surprise quota exhaustion. MiniGravity ships with a cy
   <img src="assets/minigravity_guard1.jpg" alt="MiniGravity Obfuscation Matrix Guard" width="800" />
 </p>
 
-### 1. Matrix-Level Biomimetic Randomization (Markov Biomimetic Chaos)
-You think adding `sleep(1)` fools AI analysis? Naive.
-We use account-level hash-driven **Deterministic Soul-Forging** to anchor a unique "chaos persona" for each container — specific timezone offsets, keystroke velocities, and engineering stack genes (e.g., a Rust fanatic in Europe vs. a React frontend dev in Asia).
-At its core lies a **Markov Chain + Poisson Distribution** driven bio-behavioral random heartbeat engine. Between every request, it fires hyper-realistic telemetry bursts: *IDE focus flickers, code scrolling, even shadow-rewrite pauses mimicking deep thought.*
+### 1. Matrix-Level Biomimetic Disguise (Advanced Biomimetic Chaos)
+You think adding a static delay fools advanced AI analysis? Naive.
+We completely anchor a unique "chaos persona" for each connected container setup — specific timezone offsets, typing velocities, and core ecosystem behaviors (e.g., a backend developer in Europe vs. a frontend dev in Asia).
+At its core lies a comprehensive **highly mutated footprint algorithm** driven bio-behavioral random heartbeat engine. Between every request, it fires hyper-realistic environment telemetry routines seamlessly: *focus flickers, workspace scrolling, even strategic pauses mimicking deep thought and heavy focus.*
 
 ### 2. L7 Hyperspace Intelligent Circuit-Breaker (Absolute Risk Mitigation)
 - **ToolBreaker**: Detects 5+ consecutive failed retries, physically severs the loop, and injects fake error callbacks. Eliminates quota waste and machine-refresh fingerprints.
-- **Cross-tenant isolation**: Hash-based `X-MG-Client-Hash` signals physically isolate Cursor and OpenCode traffic streams. Client A's failure never triggers Client B's circuit-breaker.
-- **Deep Semantic Desensitization**: Millisecond-level XML sanitization pool strips third-party tags like `<prunable-tools>` and product identifiers.
+- **Strict client isolation**: Proprietary isolation routing physically separates different client traffic flows to ensure robust failure compartmentalization. A sudden failure of one component completely avoids taking down others.
+- **Deep Desensitization**: Powerful real-time sanitization pools strip hazardous third-party footprints and proprietary automation tags within payload traces.
 
-### 3. Dual-Engine Architecture: Native RPC & Parasitic Mode
+### 3. Dual-Engine Architecture: Native Channel & Parasitic Mode
+
 Traditional Go proxies expose cheap TLS/HTTP2 fingerprints during TLS handshakes — a fatal giveaway.
 MiniGravity now offers two invincible engines for different defensive postures:
 
-- **🔥 Ultimate: Native Channel Inference (v6.0-ls+)**: 100% abandon Go-based spoofing. The gateway delegates all LLM inference tasks via high-privilege local RPC directly to the official native Language Server. Traffic exits using the official, genuine BoringSSL cryptographic stack. To Google's audit algorithms, your anomalous trajectory drops to zero. This mode also unlocks restricted third-party models like Claude Sonnet/Opus and GPT-4o.
-- **🕷️ Fallback: uTLS Parasitic Mode (v5.9)**: When extreme environments limit native components, the gateway shifts to classic parasitic degradation. It severs its own external OAuth connections and silently parasitizes the Language Server's memory to harvest the official `jetski-standalone-oauth-token`, utilizing heavily obfuscated uTLS routing to process inference requests securely.
+<p align="center">
+  <img src="assets/absolute_emulation.jpg" alt="Absolute Emulation Matrix" width="800" />
+</p>
 
-### 4. Shadow Cascade Telemetry Inducement
-Single HTTP requests are easily flagged as offline scripts. Official monitoring collects 22+ deep internal telemetry events like `RecordCortexTrajectory`.
-We inject brief `StartCascade` trigger packets that **trick the official C++ components into generating legitimate Type-B telemetry on our behalf** — a dimensional-reduction "proxy within the system."
+> ### 👑 [PRIMARY FOCUS] 🔥 Ultimate Form: Native Channel Inference (v6.0-ls+)
+> **🚨 Highlight: Absolute Zero-Fingerprint Communication & Full Multi-Model Unlock 🚨**
+> 
+> **Flawlessly integrates all LLM inference tasks into the execution flow of official native components, routing traffic exclusively through the official, genuine cryptographic stack!** 
+> To the audit algorithms of cloud defense systems, your anomalous third-party proxy trajectory **drops seamlessly to absolute zero**. This mode robustly and forcefully unlocks restricted third-party models like Claude Sonnet/Opus and GPT-4o!
+>
+> #### 🕷️ Phantom Form: uTLS Parasitic Mode (v5.9)
+> **Highlight: Deep Stealth & Fallback Survival**
+> Official components act strictly as oblivious hosts handling "auth chores" (e.g., refreshing tokens, heartbeat telemetry). The gateway severs its own vulnerable external exposure points and leverages heavily obfuscated uTLS routing to process main inference requests completely undetected, serving as the ultimate fallback in extreme risk-control environments.
 
-### 5. O(N) Semantic Context Slicer
-Handles massive prompts without OOM. Microsecond-level `ExtractContext` engine uses head-tail sampling + stopword compression at strict O(N) complexity.
+### 4. Deep Shadow Telemetry Inducement
+Single automated HTTP requests are easily flagged as generic scripts. Massive sophisticated tracking heavily relies on complex and deep internal behavioral footprints to trace origins.
+We intelligently apply environmental dynamic trigger patterns that **seamlessly compel the underlying application frameworks into naturally producing and sending massive, legitimate authentic telemetry traces automatically** — building an impenetrable overall illusion of highly continuous genuine human interface.
 
-### 6. Kernel-Level Traffic Clamp (LD_PRELOAD Hook)
-Custom `__thread` C hook library intercepts `getaddrinfo`/`sendto` syscalls. **IPv6 leaks** and **UDP/QUIC escape attempts** are met with fake `ENETUNREACH` errors, forcing all traffic through the TLS disguise pool.
+### 5. Dynamic Context Reshaping Module
+Flawlessly operates to secure heavy workloads without structural memory issues. Advanced sub-slicing mechanisms swiftly isolate massive logic intents while systematically omitting duplicate robotic signatures continuously undetected.
+
+### 6. Sub-Protocol Outbound Routing Clamp
+A profound customized defensive matrix fundamentally locks down dangerous connection avenues. **Any critical leakage possibilities**, such as external bypass routes or unencrypted protocol deviations, are securely caught and strictly redirected down via tightly controlled and fully encrypted communication lifelines seamlessly.
 
 ### 7. Hive Queen L7 Nexus (Zero-Downtime Failover)
 
@@ -110,10 +122,10 @@ Deep integration with `uTLS` tunneling rewrites the native Go `net/http` ClientH
 
 To reach today's "zero-ban" era, MiniGravity has permanently neutralized nearly every high-risk fingerprint vector:
 
-**Network Layer**: IPv6 Leaks · ALPN Downgrades · UDP/QUIC Escapes · Dual TLS Fingerprints · Short-Connection Storms  
-**Clustering & Burst Detection**: ToolBreaker Loop Kill · Cross-Tenant Isolation · Thundering Herd Damping · 429 Retry Avalanche Prevention  
-**Payload Forensics**: Shadow Persona Coherence · Framework Tag Stripping · Token Volume Normalization · CRLF Poison Immunity  
-**Container Security**: C Hook Memory Safety · Credential Permission Auditing
+**Network Layer Protection**: Core Routing Leaks · Unsafe Sub-Channel Downgrades · Secondary Protocols Bypassing Checks · Dual-Signatures Anomalies.
+**Operation Stabilization Detection**: Anti-Abuse Halter Systems · Strict Sandbox Separations · Avalanche Outage Redirection Capabilities.
+**Footprint Integrity Controls**: Persisted Behavior Realism Assurances · Framework Signatures Cleansing · Payload Volume Dilations · Special Characters Data Poisoning Protections.
+**Security Auditing Policies**: Foundational Stability Integrity Lockdowns · Highly Secured Internal Data Protections Shield.
 
 ---
 
@@ -125,7 +137,7 @@ Survived millions of adversarial exchanges under the harshest conditions:
 
 - **Ultra-tier model sustained operation**: Two weeks of uninterrupted hell-mode stress testing under Gemini 1.5 Pro / Ultra full load with epic long-context code reasoning tasks.
 - **Zero-ban physical isolation miracle**: Despite processing thousands of daily requests far exceeding human physiological limits, the core account matrix remains completely intact.
-- **Dimensional-strike phantom projection**: Our hybrid C Hook interception + five-mode biomimetic gateway approaches the "reality boundary" — projecting a convincing illusion of independent senior engineers working around the clock.
+- **Dimensional-strike phantom projection**: Our highly robust multi-layered architectural protection paired with the flawless environment emulator reliably shatters all risk bounds — projecting a profoundly compelling representation resembling a large enterprise squad grinding seamlessly through the clock without setting off basic warning trips.
 
 ---
 
@@ -356,7 +368,7 @@ Surrounding the Queen lies an armada of hundreds of sub-agents, each imbued with
 
 ## Security & Usage Rules 🚨
 
-1. **Anti-Reverse-Engineering**: To prevent our anti-detection strategies from being abused or fingerprinted, the core scheduling logic has undergone maximum-level obfuscation. **Requests to open-source `libminigravity_hook.so` or the Go core modules will not be entertained.**
+1. **Strict Defense Fortification**: To completely shut down vectors where these sophisticated defensive principles could be studied maliciously, core mechanisms have heavily encapsulated obfuscations embedded locally. **Requests designed simply to audit proprietary countermeasures and release closed implementations externally remain strictly prohibited constantly.**
 2. **Credential Auditing (P8 Audit)**: This system handles extremely sensitive account assets. The Queen engine performs strict permission audits on startup. Keep your host machine's `accounts.json` tightly secured (chmod `600`) and never commit/expose your tokens.
 3. **Clean IP Requirement (CRITICAL — READ THIS)**: While MiniGravity mathematically eliminates application/kernel-layer fingerprints, **it CANNOT save you if you share IPs between accounts or use notoriously abused, blacklisted datacenter IPs**. Google's offline T+1 clustering engine performs IP-based account correlation — if two or more accounts share the same exit IP, they will be permanently linked and banned together. **Every account MUST have its own dedicated, clean residential/ISP IP.** We strongly recommend configuring an IP pool (e.g., Clash Verge multi-port listeners, per-account SOCKS5 proxies, or dedicated tunnels) to ensure complete IP isolation across your account matrix.
 4. **Shadowban History Isolation**: If your Google/Anthropic account has already faced numerous cross-region login blocks, API probing alerts, or holds a highly suspicious risk-score (Shadowban) *before* using MiniGravity, this proxy cannot "cleanse" established black-marks. Keep your primary accounts pristine.
