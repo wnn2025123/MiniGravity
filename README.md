@@ -72,7 +72,7 @@ Traditional Go proxies expose cheap TLS/HTTP2 fingerprints during TLS handshakes
 MiniGravity now offers two invincible engines for different defensive postures:
 
 <p align="center">
-  <img src="assets/minigravity_guard2.jpg" alt="Absolute Emulation Matrix" width="800" />
+  <img src="assets/native_channel.jpg" alt="Native Channel Mode (Sorcerer)" width="800" />
 </p>
 
 > ### 👑 [PRIMARY FOCUS] 🔥 Ultimate Form: Native Channel Inference (v6.0-ls+)
@@ -80,7 +80,11 @@ MiniGravity now offers two invincible engines for different defensive postures:
 > 
 > **Flawlessly integrates all LLM inference tasks into the execution flow of official native components, routing traffic exclusively through the official, genuine cryptographic stack!** 
 > To the audit algorithms of cloud defense systems, your anomalous third-party proxy trajectory **drops seamlessly to absolute zero**. This mode robustly and forcefully unlocks restricted third-party models like Claude Sonnet/Opus and GPT-4o!
->
+
+<p align="center">
+  <img src="assets/parasitic_mode.jpg" alt="Parasitic Mode (Venom Symbiote)" width="800" />
+</p>
+
 > #### 🕷️ Phantom Form: uTLS Parasitic Mode (v5.9)
 > **Highlight: Deep Stealth & Fallback Survival**
 > Official components act strictly as oblivious hosts handling "auth chores" (e.g., refreshing tokens, heartbeat telemetry). The gateway severs its own vulnerable external exposure points and leverages heavily obfuscated uTLS routing to process main inference requests completely undetected, serving as the ultimate fallback in extreme risk-control environments.
