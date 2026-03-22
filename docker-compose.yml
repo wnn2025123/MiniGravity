@@ -1,6 +1,6 @@
 services:
   hive-nexus:
-    image: ghcr.io/wnn2025123/minigravity:v6.0-ls
+    image: ghcr.io/wnn2025123/minigravity:v6.1
     ports:
       - "8080:8080"  # Proxy API endpoint
       - "9090:9000"  # Queen Load Balancer endpoint
@@ -8,6 +8,8 @@ services:
     volumes:
       - ./accounts.json:/app/accounts.json:ro
       - /var/run/docker.sock:/var/run/docker.sock
+    env_file:
+      - .env
     environment:
       - MINIGRAVITY_QUEUE_CONCURRENCY=2
       - MINIGRAVITY_QUEUE_INTERVAL_MS=500

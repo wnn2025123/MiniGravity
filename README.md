@@ -75,7 +75,7 @@ MiniGravity now offers two invincible engines for different defensive postures:
   <img src="assets/native_channel.jpg" alt="Native Channel Mode (Sorcerer)" width="800" />
 </p>
 
-> ### 👑 [PRIMARY FOCUS] 🔥 Ultimate Form: Native Channel Inference (v6.0-pro+)
+> ### 👑 [PRIMARY FOCUS] 🔥 Ultimate Form: Native Channel Inference (v6.1-pro+)
 > **🚨 Highlight: Absolute Zero-Fingerprint Communication & Full Multi-Model Unlock 🚨**
 > 
 > **Flawlessly integrates all LLM inference tasks into the execution flow of official native components, routing traffic exclusively through the official, genuine cryptographic stack!** 
@@ -85,7 +85,7 @@ MiniGravity now offers two invincible engines for different defensive postures:
   <img src="assets/parasitic_mode.jpg" alt="Parasitic Mode (Venom Symbiote)" width="800" />
 </p>
 
-> #### 🕷️ Phantom Form: uTLS Parasitic Mode (v6.0-ls)
+> #### 🕷️ Phantom Form: uTLS Parasitic Mode (v6.1)
 > **Highlight: Deep Stealth & Fallback Survival**
 > Official components act strictly as oblivious hosts handling "auth chores" (e.g., refreshing tokens, heartbeat telemetry). The gateway severs its own vulnerable external exposure points and leverages heavily obfuscated uTLS routing to process main inference requests completely undetected, serving as the ultimate fallback in extreme risk-control environments.
 
@@ -149,9 +149,9 @@ Survived millions of adversarial exchanges under the harshest conditions:
 
 > **This project's core is absolutely closed-source. Pre-built Docker images with full obfuscation are distributed via GitHub Container Registry.**
 > 
-> **🏆 Architecture Support Update (v6.0-ls):**
+> **🏆 Architecture Support Update (v6.1):**
 > All publicly distributed images now natively support cross-platform **`amd64` (Standard x86) and `arm64` (Apple Silicon & ARM Hosts)** dual-architecture deployments.  
-> With the unified v6.0-ls update, whether you are running on Windows, Linux, or Macs equipped with **M1/M2/M3 Apple Silicon**, Docker will automatically pull and execute an un-emulated, zero-performance-loss native container (bypassing Rosetta).
+> With the unified v6.1 update, whether you are running on Windows, Linux, or Macs equipped with **M1/M2/M3 Apple Silicon**, Docker will automatically pull and execute an un-emulated, zero-performance-loss native container (bypassing Rosetta).
 
 ### Docker Deployment
 
