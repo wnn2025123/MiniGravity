@@ -1,0 +1,14 @@
+{
+  "proxy": "http://host.docker.internal:7891",
+  "accounts": [
+    {
+      "email": "shadow1@gmail.com",
+      "refresh_token": "1//04xxxxx"
+    },
+    {
+      "email": "shadow2@gmail.com",
+      "refresh_token": "1//05yyyyy"
+    }
+  ]
+}
+
